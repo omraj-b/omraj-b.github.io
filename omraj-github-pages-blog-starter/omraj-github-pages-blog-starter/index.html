@@ -1,0 +1,51 @@
+---
+layout: default
+title: Home
+description: Home page of Omraj Burnwal
+---
+<header class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="badge">Cybersecurity learner · Communication systems background</div>
+      <h1>Focused on cybersecurity, networking, and practical technical depth.</h1>
+      <p class="lead">
+        I am Omraj Burnwal, a telecommunications engineer with an academic background in communication and signal processing,
+        now building hands-on cybersecurity skills through SIEM tooling, SOC labs, networking study, and security-focused projects.
+      </p>
+      <div class="hero-actions">
+        <a class="btn primary" href="{{ '/projects.html' | relative_url }}">View Projects</a>
+        <a class="btn" href="{{ '/blog.html' | relative_url }}">Read Blog</a>
+        <a class="btn" href="{{ '/resume.html' | relative_url }}">Open Resume</a>
+      </div>
+    </div>
+    <aside class="hero-card">
+      <h3>Current focus</h3>
+      <ul class="list">
+        <li>Completed CompTIA Security+</li>
+        <li>Preparing for CCNA and strengthening OS fundamentals</li>
+        <li>Working with SIEM and defensive tooling</li>
+        <li>Building a recruiter-friendly public portfolio</li>
+      </ul>
+    </aside>
+  </div>
+</header>
+
+<section>
+  <div class="container two-col">
+    <div class="card">
+      <h2 class="section-title">Quick background</h2>
+      <p class="muted">
+        M.Tech (Research) from IIT Bombay in Communication &amp; Signal Processing, with an earlier B.Tech from IIT Ropar.
+        Transitioning into cybersecurity through practical labs, tooling, and structured study.
+      </p>
+    </div>
+    <div class="card">
+      <h2 class="section-title">Latest posts</h2>
+      <ul class="list">
+        {% for post in site.posts limit:3 %}
+          <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> — {{ post.date | date: "%b %d, %Y" }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
