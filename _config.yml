@@ -1,7 +1,0 @@
-title: Omraj Burnwal
-description: Portfolio and blog of Omraj Burnwal
-baseurl: ""
-url: ""
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title/
-collections_dir: .
