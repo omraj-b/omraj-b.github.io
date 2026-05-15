@@ -1,0 +1,19 @@
+---
+layout: default
+title: Resume
+---
+<section class="hero">
+  <div class="container">
+    <h1>Resume</h1>
+    <p class="lead">
+      Put your latest PDF resume in <code>assets/resume.pdf</code>. The button below and the viewer on this page both use that file.
+    </p>
+    <div class="hero-actions">
+      <a class="btn primary" href="{{ '/assets/resume.pdf' | relative_url }}" target="_blank" rel="noreferrer">Open PDF</a>
+      <a class="btn" href="{{ '/assets/resume.pdf' | relative_url }}" download>Download Resume</a>
+    </div>
+    <div class="card">
+      <iframe class="resume-frame" src="{{ '/assets/resume.pdf' | relative_url }}" title="Resume PDF preview"></iframe>
+    </div>
+  </div>
+</section>
