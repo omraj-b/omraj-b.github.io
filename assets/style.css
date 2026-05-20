@@ -1,36 +1,133 @@
 body {
-  background-color: #000;
-  color: #00FF00;
-  font-family: "Courier New", monospace;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #0b0f17;
+  color: #e6edf3;
 }
 
-a {
-  color: #00FF00;
-}
-
-a:hover {
-  color: #00CC00;
-}
-
+/* Layout */
 .container {
-  max-width: 800px;
+  max-width: 1100px;
   margin: auto;
-  padding: 20px;
+  padding: 40px 20px;
 }
 
-header, footer {
-  text-align: center;
+/* Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #1f2937;
 }
 
-hr {
-  border: 1px solid #00AA00;
+header h2 {
+  margin: 0;
+  font-size: 1.2rem;
 }
 
-.post {
+nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #9ca3af;
+  font-size: 0.95rem;
+}
+
+nav a:hover {
+  color: #22c55e;
+}
+
+/* Hero */
+.hero {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  color: #9ca3af;
+  line-height: 1.6;
+}
+
+.hero-box {
+  background: #111827;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #1f2937;
+  box-shadow: 0 0 20px rgba(34,197,94,0.15);
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
   margin-top: 20px;
+  padding: 10px 18px;
+  background: #22c55e;
+  color: black;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: #16a34a;
+}
+
+/* Sections */
+.section {
+  margin-top: 60px;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+}
+
+/* Cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #111827;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #1f2937;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #22c55e;
+}
+
+/* Blog */
+.post-card h3 a {
+  color: #e6edf3;
+  text-decoration: none;
+}
+
+.post-card h3 a:hover {
+  color: #22c55e;
 }
 
 .date {
-  color: #00AA00;
-  font-size: 0.9em;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #6b7280;
 }
