@@ -1,0 +1,7 @@
+title: Omraj Burnwal
+description: Cybersecurity Blog and Portfolio
+baseurl: ""
+url: ""
+markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title/

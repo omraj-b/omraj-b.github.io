@@ -1,0 +1,36 @@
+body {
+  background-color: #000;
+  color: #00FF00;
+  font-family: "Courier New", monospace;
+}
+
+a {
+  color: #00FF00;
+}
+
+a:hover {
+  color: #00CC00;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+header, footer {
+  text-align: center;
+}
+
+hr {
+  border: 1px solid #00AA00;
+}
+
+.post {
+  margin-top: 20px;
+}
+
+.date {
+  color: #00AA00;
+  font-size: 0.9em;
+}
