@@ -6,44 +6,72 @@ title: Home
 <div class="container hero">
 
 <div>
-  <h1>Cybersecurity Learner & Engineer</h1>
+  <h1>Hi, I'm Omraj</h1>
+  <h2 class="subtitle">Cybersecurity Enthusiast</h2>
+
   <p>
-    I am Omraj Burnwal, with a background in communication and signal processing,
-    now transitioning into cybersecurity with hands-on experience in SIEM tools,
-    SOC workflows, and system-level concepts.
+    Transitioning from communication and signal processing into cybersecurity.
+    Currently building hands-on experience with SIEM tools, networking, and system-level concepts.
   </p>
 
-  <a class="btn" href="/blog">Explore Blog</a>
+  <div class="cta">
+    <a class="btn" href="/blog">Read Blog</a>
+    <a class="btn secondary" href="/resume">View Resume</a>
+  </div>
 </div>
 
-<div class="hero-box">
-  <h3>Current Focus</h3>
-  <ul>
-    <li>Security+ Completed</li>
-    <li>CCNA in progress</li>
-    <li>Operating Systems</li>
-    <li>SIEM: Splunk & Wazuh</li>
-  </ul>
+<div>
+  <img src="/assets/images/profile.jpg" alt="Omraj Burnwal" class="profile-img">
 </div>
 
 </div>
 
+<!-- SKILLS / FOCUS -->
+<div class="container section">
+  <h2>What I'm Focused On</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>SIEM & Monitoring</h3>
+      <p>Working with Splunk and Wazuh for log ingestion, alerting, and analysis.</p>
+    </div>
+
+    <div class="card">
+      <h3>Networking</h3>
+      <p>Preparing for CCNA and building strong understanding of network fundamentals.</p>
+    </div>
+
+    <div class="card">
+      <h3>Operating Systems</h3>
+      <p>Learning processes, memory, and system-level behavior from a security perspective.</p>
+    </div>
+  </div>
+</div>
+
+<!-- PROJECTS -->
 <div class="container section">
   <h2>Projects</h2>
 
   <div class="grid">
     <div class="card">
       <h3>SIEM Monitoring Lab</h3>
-      <p>Configured Splunk and Wazuh for log ingestion, alerting, and analysis.</p>
+      <p>
+        Configured Splunk and Wazuh to collect logs, create alerts,
+        and analyze system activity.
+      </p>
     </div>
 
     <div class="card">
       <h3>Live SOC Practice</h3>
-      <p>Performed alert triage and investigated simulated incidents.</p>
+      <p>
+        Investigated alerts, performed triage, and analyzed simulated
+        security incidents.
+      </p>
     </div>
   </div>
 </div>
 
+<!-- BLOG -->
 <div class="container section">
   <h2>Latest Blog Posts</h2>
 
