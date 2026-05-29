@@ -10,8 +10,26 @@ title: Home
   <h2 class="subtitle">Cybersecurity Enthusiast</h2>
 
   <p>
-    Transitioning from communication and signal processing into cybersecurity.
-    Currently building hands-on experience with SIEM tools, networking, and system-level concepts.
+    My journey into cybersecurity started with curiosity—and quickly turned into a structured, hands-on pursuit of understanding how systems work and how they break.
+
+    Over the past year, I have focused on building a strong foundation in cybersecurity through a combination of theory and practical labs. I completed the CompTIA Security+ and CCNA syllabi, and consistently applied those concepts through hands-on work using platforms like TryHackMe, where I have solved 50+ labs across domains such as SOC operations, Active Directory, cryptography, and network security.
+
+    What defines my approach is learning by doing. I have built and experimented with multiple lab environments to simulate real-world scenarios:
+
+    * Capturing and analyzing network traffic using Wireshark to understand protocol behavior and detect anomalies
+    * Scanning and assessing vulnerable systems using Nmap and OpenVAS
+    * Setting up a virtual SOC lab with Wazuh to observe attacks from a defender’s perspective
+    * Practicing password security, hashing, and cracking techniques to understand authentication weaknesses
+    * Exploring web vulnerabilities through PortSwigger labs, including SQL injection and authentication bypass
+
+    Along the way, I’ve also explored areas like malware behavior, system internals (Windows/Linux), and basic Active Directory concepts to understand how attackers exploit real systems.
+
+    Currently, I am focused on improving my web application security skills, working through PortSwigger labs, attempting CTF challenges, and gradually stepping into bug bounty programs to gain exposure to real-world security testing.
+
+    Before transitioning into cybersecurity, I completed my M.Tech from IIT Bombay, where I worked as a Teaching Assistant in courses involving GNU Radio and RFID-based system design. I also led the Fine Arts Club during my undergraduate studies at IIT Ropar, an experience that taught me how creativity and structured thinking can complement each other—something I still apply in problem-solving today.
+
+    I am now looking for opportunities where I can contribute as a cybersecurity analyst while continuing to learn, build, and refine my skills in a practical environment.
+
   </p>
 
   <div class="cta">
