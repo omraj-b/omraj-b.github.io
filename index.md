@@ -5,40 +5,59 @@ title: Home
 
 <div class="container hero">
 
-<div>
+<div class="about-text">
+
   <h1>Hi, I'm Omraj</h1>
-  <h2 class="subtitle">Cybersecurity Enthusiast</h2>
+  <h2 class="subtitle">Aspiring Cybersecurity Analyst</h2>
 
-  <p>
-    My journey into cybersecurity started with curiosity—and quickly turned into a structured, hands-on pursuit of understanding how systems work and how they break.
+  <div class="card about-card">
+  
+    <p>
+      My journey into cybersecurity started with curiosity—and quickly turned into a structured, hands-on pursuit of understanding how systems work and how they break.
+    </p>
 
-    Over the past year, I have focused on building a strong foundation in cybersecurity through a combination of theory and practical labs. I completed the CompTIA Security+ and CCNA syllabi, and consistently applied those concepts through hands-on work using platforms like TryHackMe, where I have solved 50+ labs across domains such as SOC operations, Active Directory, cryptography, and network security.
+    <p>
+      Over the past year, I have focused on building a strong foundation in cybersecurity through a combination of theory and practical labs. I completed the CompTIA Security+ and CCNA syllabi, and consistently applied those concepts through hands-on work using platforms like TryHackMe, where I have solved 50+ labs across domains such as SOC operations, Active Directory, cryptography, and network security.
+    </p>
 
-    What defines my approach is learning by doing. I have built and experimented with multiple lab environments to simulate real-world scenarios:
+    <p>
+      What defines my approach is learning by doing. I have built and experimented with multiple lab environments to simulate real-world scenarios:
+    </p>
 
-    * Capturing and analyzing network traffic using Wireshark to understand protocol behavior and detect anomalies
-    * Scanning and assessing vulnerable systems using Nmap and OpenVAS
-    * Setting up a virtual SOC lab with Wazuh to observe attacks from a defender’s perspective
-    * Practicing password security, hashing, and cracking techniques to understand authentication weaknesses
-    * Exploring web vulnerabilities through PortSwigger labs, including SQL injection and authentication bypass
+    <ul>
+      <li>Capturing and analyzing network traffic using Wireshark to understand protocol behavior and detect anomalies</li>
+      <li>Scanning and assessing vulnerable systems using Nmap and OpenVAS</li>
+      <li>Setting up a virtual SOC lab with Wazuh to observe attacks from a defender’s perspective</li>
+      <li>Practicing password security, hashing, and cracking techniques to understand authentication weaknesses</li>
+      <li>Exploring web vulnerabilities through PortSwigger labs, including SQL injection and authentication bypass</li>
+    </ul>
 
-    Along the way, I’ve also explored areas like malware behavior, system internals (Windows/Linux), and basic Active Directory concepts to understand how attackers exploit real systems.
+    <p>
+      Along the way, I’ve also explored areas like malware behavior, system internals (Windows/Linux), and basic Active Directory concepts to understand how attackers exploit real systems.
+    </p>
 
-    Currently, I am focused on improving my web application security skills, working through PortSwigger labs, attempting CTF challenges, and gradually stepping into bug bounty programs to gain exposure to real-world security testing.
+    <p>
+      Currently, I am focused on improving my web application security skills, working through PortSwigger labs, attempting CTF challenges, and gradually stepping into bug bounty programs to gain exposure to real-world security testing.
+    </p>
 
-    Before transitioning into cybersecurity, I completed my M.Tech from IIT Bombay, where I worked as a Teaching Assistant in courses involving GNU Radio and RFID-based system design. I also led the Fine Arts Club during my undergraduate studies at IIT Ropar, an experience that taught me how creativity and structured thinking can complement each other—something I still apply in problem-solving today.
+    <p>
+      Before transitioning into cybersecurity, I completed my M.Tech from IIT Bombay, where I worked as a Teaching Assistant in courses involving GNU Radio and RFID-based system design. I also led the Fine Arts Club during my undergraduate studies at IIT Ropar, an experience that taught me how creativity and structured thinking can complement each other—something I still apply in problem-solving today.
+    </p>
 
-    I am now looking for opportunities where I can contribute as a cybersecurity analyst while continuing to learn, build, and refine my skills in a practical environment.
+    <p>
+      I am now looking for opportunities where I can contribute as a cybersecurity analyst while continuing to learn, build, and refine my skills in a practical environment.
+    </p>
 
-  </p>
+  </div>
 
   <div class="cta">
     <a class="btn" href="/blog">Read Blog</a>
     <a class="btn secondary" href="/resume">View Resume</a>
   </div>
+
 </div>
 
-<div>
+<div class="about-image">
   <img src="/assets/images/profile.jpg" alt="Omraj Burnwal" class="profile-img">
 </div>
 

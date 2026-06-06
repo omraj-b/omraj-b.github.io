@@ -187,3 +187,37 @@ footer {
   padding: 30px;
   color: #6b7280;
 }
+
+/* =========================
+   ABOUT SECTION IMPROVEMENTS
+========================= */
+
+.about-text {
+  max-width: 650px;
+}
+
+.about-card {
+  line-height: 1.7;
+}
+
+/* Improve spacing inside long text */
+.about-card p {
+  margin-bottom: 14px;
+}
+
+/* Bullet points formatting */
+.about-card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.about-card li {
+  margin-bottom: 8px;
+}
+
+/* Align image properly with long content */
+.about-image {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
